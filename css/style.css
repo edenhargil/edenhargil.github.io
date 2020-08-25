@@ -467,4 +467,5 @@ iframe {
     align-self: center;
     width: 25%;
     border: #6B3863 1px solid;
+    line-height: 0;
   }
