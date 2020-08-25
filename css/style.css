@@ -207,6 +207,7 @@ font-size: 1.2em;
   font-weight: bold;
   display: block;
   padding: 1rem 1.2rem;
+  border: none;
 }
 .dropdown-content a:active {
   background-color:hsla(310, 31%, 19%, 1);
