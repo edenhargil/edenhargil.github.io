@@ -447,6 +447,9 @@ iframe {
     #headerimg {
       width: 80%;
   }
+  .music-video {
+    grid-template-columns: 1fr 3fr;
+  }
   .vid-description {
     text-align: left;
   }
