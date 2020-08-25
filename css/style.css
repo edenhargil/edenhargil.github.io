@@ -384,7 +384,7 @@ iframe {
 #footer-wrap {
   padding: 0 0 2%;
 }
-#footerimg {
+.bio-content img {
   display: block;
   text-align: center;
   margin: 0 auto;
