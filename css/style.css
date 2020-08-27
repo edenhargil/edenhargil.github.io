@@ -476,6 +476,6 @@ iframe {
     display: inline;
     align-self: center;
     width: 100%;
-    border: #6B3863 1px solid;
+    /* border: #6B3863 1px solid; */
     line-height: 0;
   }
