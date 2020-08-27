@@ -22,7 +22,6 @@ html {
 }
 body {
   background-color: hsla(300, 3%, 85%, 1);
-  font-family: 'Montserrat','Gill Sans','Calibri',sans-serif;
   font-weight: normal;
   margin: 0;
   padding: 0;
@@ -50,6 +49,7 @@ h3 {
   letter-spacing: 0.04rem;
 }
 p {
+  font-family: 'Montserrat','Gill Sans','Calibri',sans-serif;
   color: hsla(231, 100%, 16%, 1);
   margin: 0;
 }
@@ -465,7 +465,6 @@ iframe {
     display: flex;
     align-content: flex-start;
     flex-direction: row;
-    line-height: 0;
   }
   .bio-content p {
     color: #00093dff;
