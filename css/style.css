@@ -2,13 +2,13 @@
 /*
 --palatinate-purple: #6B3863;
 --midnight-blue: #000C52;
---cinereous: #a29492ff;
+--black-shadows: #B4A9A7;
 --gainsboro: #dbd9dbff;
 --deep-space-sparkle: #335c67ff;
 */
 /* --palatinate-purple: hsla(309, 31%, 32%, 1);
 --midnight-blue: hsla(231, 100%, 16%, 1);
---cinereous: hsla(8, 8%, 60%, 1);
+--black-shadows: hsla(8, 8%, 68%, 1);
 --gainsboro: hsla(300, 3%, 85%, 1);
 --meep-space-sparkle: hsla(193, 34%, 30%, 1); */
 
@@ -341,7 +341,7 @@ iframe {
 .vid-description {
   text-align: center;
   padding-bottom: 4px;
-  background-color: #A29492;
+  background-color: hsla(8, 8%, 68%, 1);
   color: #00093dff;
   border: #6B3863 1px solid;
 }
@@ -358,7 +358,7 @@ iframe {
 .bio-content p {
   padding-left: 1em;
   text-align: justify;
-  background-color: #A29492;
+  background-color: hsla(8, 8%, 68%, 1);
   border: #6B3863 1px solid;
 }
 .bio-content img {
@@ -465,11 +465,13 @@ iframe {
     display: flex;
     align-content: flex-start;
     flex-direction: row;
+    line-height: 0;
   }
   .bio-content p {
     color: #00093dff;
     margin-left: 1em;
     padding: 0.5em 1em;
+    line-height: 1.5;
   }
   .bio-content img {
     display: inline;
