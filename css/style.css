@@ -474,7 +474,7 @@ iframe {
   }
   .bio-content img {
     display: inline;
-    align-self: center;
+    align-self: start;
     width: 100%;
     /* border: #6B3863 1px solid; */
     line-height: 0;
