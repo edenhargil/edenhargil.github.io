@@ -389,7 +389,9 @@ iframe {
   height: 2.5em;
 }
 .mailinglist {
-  max-width: 60%;
+  max-width: 30%;
+  margin: auto;
+  padding: 5px
 }
 #footer-wrap {
   padding: 0 0 2%;
