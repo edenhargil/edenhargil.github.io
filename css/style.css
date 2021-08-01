@@ -393,6 +393,23 @@ iframe {
   margin: auto;
   padding: 5px
 }
+.names{
+  display: flex;
+  padding-bottom: 0.5em;
+}
+#firstname{
+  margin-left: 0;
+  margin-right: 1%;
+  width: 49%;
+}
+#lastname{
+  margin-left: 1%;
+  margin-right: 0;
+  width: 49%;
+}
+#email{
+  padding-bottom: 0.5em;
+}
 #footer-wrap {
   padding: 0 0 2%;
 }
