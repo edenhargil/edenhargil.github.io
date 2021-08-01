@@ -182,6 +182,39 @@
           </ul>
           <!-- <img src="https://picsum.photos/800/400" alt="placeholder image" id="footerimg"> -->
         </div>
+        <div class="mailinglist">
+          <form method="post" action="//submit.form" onSubmit="return validateForm();">
+          <div>
+          </div>
+          <div >Join my mailing list</div>
+          <div>
+            <div >First name<span style="color: red;"> *</span><br/>
+              <input type="text" id="data_2" name="data_2" class="form-control"/>
+            </div>
+            <div>Last name<span style="color: red;"> *</span><br/>
+              <input type="text" id="data_3" name="data_3" class="form-control"/>
+            </div>
+            </div><div>Email<span style="color: red;"> *</span><br/>
+              <input type="text" id="data_4" name="data_4" class="form-control"/>
+            </div>
+            <div style="padding-bottom: 18px;"><br/>
+              <span><input type="checkbox" id="data_6_0" name="data_6" value="I agree to recieve emails and updates"/> I agree to Terms of Service and Privacy Policy</span><br/>
+            </div>
+            <div><input name="skip_Submit" value="Subscribe" type="submit"/></div>
+            <div>
+              <div style="float:right"><a href="https://www.100forms.com" id="lnk100" title="form to email">form to email</a>
+              </div>
+            <script src="https://www.100forms.com/js/FORMKEY:6X8QW2CQ3DUP/SEND:eden.hargil.music@gmail.com" type="text/javascript"></script>
+          </div>
+          </form>
+
+          <script type="text/javascript">
+          function validateForm() {
+          if (isEmpty(document.getElementById('data_2').value.trim())) {
+          alert('First name is required!');
+          return false;
+          }
+        </div>
       </footer>
     </main>
   </body>

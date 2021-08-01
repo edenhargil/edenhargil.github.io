@@ -388,6 +388,9 @@ iframe {
 .social-media-links img {
   height: 2.5em;
 }
+.mailinglist {
+  max-width: 60%;
+}
 #footer-wrap {
   padding: 0 0 2%;
 }
