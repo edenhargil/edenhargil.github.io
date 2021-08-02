@@ -34,4 +34,15 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
       if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
         $emailErr = "Invalid email format";
 }
+// Has the form been posted?
+if(isset($_POST['data_4']))
+{
+  // Append the submitted e-mail to the list.
+  $file = fopen('list.txt', 'a');
+  fputs($file, $_POST['data_2','data_3','data_4'] . "\n");
+  fclose($file);
+
+  // Send a message to the browser.
+  die('Added to mailing list.');
+}
 ?>
