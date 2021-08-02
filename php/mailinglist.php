@@ -1,12 +1,3 @@
-<html>
-<body>
-
-Hi <?php echo $_POST["data_2"]; ?><br>
-Thank you for joining. Your email address is: <?php echo $_POST["data_4"]; ?>
-
-</body>
-</html>
-
 <?php
 // define variables and set to empty values
 $firstname = $lastname = $email = $agree = "";
