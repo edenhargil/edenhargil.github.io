@@ -391,7 +391,7 @@ iframe {
 .mailinglist {
   max-width: 50%;
   margin: auto;
-  padding: 5px
+  padding-bottom: : 4em;
 }
 .names{
   display: flex;
