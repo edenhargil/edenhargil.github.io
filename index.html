@@ -182,18 +182,18 @@
           </ul>
           <!-- <img src="https://picsum.photos/800/400" alt="placeholder image" id="footerimg"> -->
         <div class="mailinglist">
-          <form method="post" action="php\mailinglist.php">
           <h2>Join my mailing list</h2>
-          <div class="names">
-            <h3 id="firstname">First name<br/>
-              <input type="text" id="data_2" name="data_2" class="form-control" style="max-width: 100%;"/>
+          <form id="mailinglistform" method="post" action="php\mailinglist.php">
+            <div class="names">
+              <label for="data_2"><h3 id="firstname">First name<br/></label>
+              <input type="text" id="data_2" name="data_2" class="form-control"/>
             </h3>
-            <h3 id="lastname">Last name<br/>
-              <input type="text" id="data_3" name="data_3" class="form-control" style="max-width: 100%;"/>
+            <label for="data_3"><h3 id="lastname">Last name<br/></label>
+              <input type="text" id="data_3" name="data_3" class="form-control"/>
             </h3>
           </div>
-            <h3 id="email">Email<br/>
-              <input type="text" id="data_4" name="data_4" class="form-control" style="max-width: 100%;">
+            <label for="data_4"><h3 id="email">Email<br/></label>
+              <input type="text" id="data_4" name="data_4" class="form-control"/>
             </h3>
             <p><br/>
               <span><input type="checkbox" id="data_5" name="data_5" value="I agree to recieve emails and updates"/>I agree to recieve emails and updates</span><br/>
