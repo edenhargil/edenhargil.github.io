@@ -403,14 +403,14 @@ iframe {
   margin-right: 1%;
   width: 49%;
   display: inline;
-  whitwspace: nowrap;
+  white-space: nowrap;
 }
 #lastname{
   margin-left: 1%;
   margin-right: 0;
   width: 49%;
   display: inline;
-  whitwspace: nowrap;
+  white-space: nowrap;
 
 }
 #email{
