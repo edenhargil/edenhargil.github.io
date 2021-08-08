@@ -392,12 +392,13 @@ iframe {
   max-width: 50%;
   margin: auto;
   padding-bottom: : 4em;
-}
-.names{
   display: flex;
+  flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
   padding-bottom: 0.5em;
   margin: auto;
-}
+
 #firstname{
   margin-left: 0;
   margin-right: 1%;
