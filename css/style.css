@@ -396,23 +396,17 @@ iframe {
   flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+    text-align: center;
 }
 #firstname{
-  margin-left: 0;
-  margin-right: 1%;
-  width: 49%;
   white-space: nowrap;
 }
 #lastname{
-  margin-left: 1%;
-  margin-right: 0;
-  width: 49%;
   white-space: nowrap;
 
 }
 #email{
   padding-bottom: 0.5em;
-  width:
   display: inline;
 }
 #footer-wrap {
