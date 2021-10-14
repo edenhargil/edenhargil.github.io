@@ -26,7 +26,7 @@ body {
   margin: 0;
   padding: 0;
   text-align: left;
-  line-height: 1.5;
+  line-height: 1.6;
 }
 h1 {
   font-family: 'Bebas Neue', cursive;
@@ -340,7 +340,7 @@ iframe {
 .vid-description {
   text-align: center;
   padding-bottom: 4px;
-  background-color: hsla(8, 8%, 68%, 1);
+  background-color: hsla(8, 8%, 68%, 0.8);
   color: #00093dff;
   /* border: #6B3863 1px solid; */
 }
@@ -357,7 +357,7 @@ iframe {
 .bio-content p {
   padding-left: 1em;
   text-align: justify;
-  background-color: hsla(8, 8%, 68%, 1);
+  background-color: hsla(8, 8%, 68%, 0.8);
   /* border: #6B3863 1px solid; */
 }
 .bio-content img {
