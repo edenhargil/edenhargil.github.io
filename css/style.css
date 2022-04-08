@@ -398,8 +398,7 @@ iframe {
     align-items: center;
     text-align: center;
 }
-.button {
-  appearance: none;
+.button-1 {
   background-color: transparent;
   border: 2px solid #1A1A1A;
   border-radius: 15px;
@@ -423,16 +422,16 @@ iframe {
   width: 100%;
   will-change: transform;
 }
-.button:disabled {
+.button-1:disabled {
   pointer-events: none;
 }
-.button:hover {
+.button-1:hover {
   color: #fff;
   background-color: #000C52;
   box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
   transform: translateY(-2px);
 }
-.button:active {
+.button-1:active {
   box-shadow: none;
   transform: translateY(0);
 }
