@@ -406,7 +406,6 @@ iframe {
   color: #000C52;
   cursor: pointer;
   display: inline-block;
-  font-family: 'Montserrat','Gill Sans','Calibri',sans-serif;
   line-height: normal;
   margin: 0;
   min-height: 60px;
@@ -428,7 +427,7 @@ iframe {
 .button-1:hover {
   color: #fff;
   background-color: #000C52;
-  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 10px;
   transform: translateY(-2px);
 }
 .button-1:active {
