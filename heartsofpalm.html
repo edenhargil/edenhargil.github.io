@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Upcoming Album: Hearts of Palm</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<h1>Upcoming Album: Hearts of Palm</h1>
+		<nav>
+			<ul>
+				<li><a href="#about">About</a></li>
+				<li><a href="#tracks">Tracks</a></li>
+				<li><a href="#preorder">Pre-Order</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<main>
+    <img src='not_found.jpg' alt='' class=''>
+		<section id="about">
+			<h2>About the Album</h2>
+			<p>Insert description of the album here.</p>
+			<p>Release Date: [Insert Date Here]</p>
+			<p>Label: [Insert Label Name Here]</p>
+		</section>
+
+		<section id="tracks">
+			<h2>Tracks</h2>
+			<ol>
+				<li><a href="#" onclick="playAudio('audio/track1.mp3')">[Track Name 1]</a></li>
+				<li><a href="#" onclick="playAudio('audio/track2.mp3')">[Track Name 2]</a></li>
+				<li><a href="#" onclick="playAudio('audio/track3.mp3')">[Track Name 3]</a></li>
+				<li><a href="#" onclick="playAudio('audio/track4.mp3')">[Track Name 4]</a></li>
+				<li><a href="#" onclick="playAudio('audio/track5.mp3')">[Track Name 5]</a></li>
+			</ol>
+		</section>
+
+		<section id="preorder">
+			<h2>Pre-Order Now</h2>
+			<form>
+				<label for="name">Name:</label>
+				<input type="text" id="name" name="name" required>
+				<br>
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email" required>
+				<br>
+				<label for="quantity">Quantity:</label>
+				<input type="number" id="quantity" name="quantity" min="1" max="10" required>
+				<br>
+				<input type="submit" value="Pre-Order">
+			</form>
+		</section>
+	</main>
+
+	<footer>
+		<p>&copy; 2023 Eden Har-Gil. All rights reserved.</p>
+	</footer>
+
+	<script src="script.js"></script>
+</body>
+</html>
