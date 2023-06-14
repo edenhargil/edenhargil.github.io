@@ -333,7 +333,7 @@ iframe {
   position: absolute;
   max-width: 100%;
   width: 100%;
-  height: 100%%;
+  height: 100%;
   left: 0;
   top: 0;
   }
@@ -362,8 +362,7 @@ iframe {
 }
 .bio-content img {
   display: none;
-  max-height: 50%;
-}
+  }
 /* Contact
 ----------- */
 .social-media-links {
@@ -530,7 +529,7 @@ iframe {
   .bio-content img {
     display: inline;
     align-self: start;
-    width: 100%;
+    width: 32%;
     /* border: #6B3863 1px solid; */
     line-height: 0;
   }
