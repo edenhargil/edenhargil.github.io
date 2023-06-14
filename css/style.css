@@ -362,6 +362,7 @@ iframe {
 }
 .bio-content img {
   display: none;
+  max-width: 50%;
 }
 /* Contact
 ----------- */
