@@ -5,6 +5,20 @@ header {
 	margin: 2em;
 	text-align: left;
 }
+.about-album {
+	display: flex;
+  flex-direction: column-reverse;
+  align-content: center;
+}
+.about-album p {
+  padding-left: 1em;
+  text-align: justify;
+  background-color: hsla(8, 8%, 68%, 0.8);
+  /* border: #6B3863 1px solid; */
+}
+.about-album img {
+  display: none;
+}
 @media only screen and (min-width: 1081px)
 nav {
     float: none;
