@@ -1,6 +1,11 @@
 header {
 	margin-top: 1em;
 }
+@media only screen and (min-width: 1081px)
+nav {
+    float: none;
+}
+
 /***LISTEN***/
 .musicplayer {
 	margin: 2em;
@@ -36,7 +41,41 @@ header {
 .about-album img {
   display: none;
 }
-@media only screen and (min-width: 1081px)
-nav {
-    float: none;
+@media only screen and (min-width: 1081px){
+  .about-album {
+    display: flex;
+    align-content: flex-start;
+    flex-direction: row;
+  }
+  .about-album p {
+    color: #00093dff;
+    margin-left: 1em;
+    padding: 0.5em 1em;
+    line-height: 1.5;
+  }
+  .about-album img {
+    display: inline;
+    align-self: start;
+    width: 32%;
+    /* border: #6B3863 1px solid; */
+    line-height: 0;
+  }
+  .about-artist {
+    display: flex;
+    align-content: flex-start;
+    flex-direction: row;
+  }
+  .about-artist p {
+    color: #00093dff;
+    margin-left: 1em;
+    padding: 0.5em 1em;
+    line-height: 1.5;
+  }
+  .about-artist img {
+    display: inline;
+    align-self: start;
+    width: 32%;
+    /* border: #6B3863 1px solid; */
+    line-height: 0;
+  }
 }
