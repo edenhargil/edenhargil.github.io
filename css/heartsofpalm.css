@@ -1,10 +1,27 @@
 header {
 	margin-top: 1em;
 }
+/***LISTEN***/
 .musicplayer {
 	margin: 2em;
 	text-align: left;
 }
+
+/***ABOUT***/
+.about-artist {
+  display: flex;
+  flex-direction: column-reverse;
+  align-content: center;
+}
+.about-artist p {
+  padding-left: 1em;
+  text-align: justify;
+  background-color: none;
+  /* border: #6B3863 1px solid; */
+}
+.about-artist img {
+  display: none;
+  }
 .about-album {
 	display: flex;
   flex-direction: column-reverse;
@@ -13,7 +30,7 @@ header {
 .about-album p {
   padding-left: 1em;
   text-align: justify;
-  background-color: hsla(8, 8%, 68%, 0.8);
+  background-color:none;
   /* border: #6B3863 1px solid; */
 }
 .about-album img {
