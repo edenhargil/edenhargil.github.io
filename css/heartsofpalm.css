@@ -84,7 +84,7 @@ nav {
 	#tracks {
 		margin-left: 4em;
 	}
-	#tracks il {
+	#tracks li {
 		padding: 1em 0;
 		font-family: 'Montserrat','Gill Sans','Calibri',sans-serif;
   		color: hsla(231, 100%, 16%, 1);
