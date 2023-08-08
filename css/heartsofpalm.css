@@ -19,7 +19,7 @@ nav {
   align-content: center;
 }
 .about-artist p {
-  padding-left: 1em;
+  padding-left: 2em;
   text-align: justify;
   background-color: none;
   /* border: #6B3863 1px solid; */
@@ -33,7 +33,7 @@ nav {
   align-content: center;
 }
 .about-album p {
-  padding-left: 1em;
+  padding-left: 2em;
   text-align: justify;
   background-color:none;
   /* border: #6B3863 1px solid; */
@@ -49,8 +49,8 @@ nav {
   }
   .about-album p {
     color: #00093dff;
-    margin-left: 1em;
-    padding: 0.5em 1em;
+    margin-left: 3em;
+    padding: 0.5em 3em;
     line-height: 1.5;
     font-size: 1.2rem;
   }
@@ -68,8 +68,8 @@ nav {
   }
   .about-artist p {
     color: #00093dff;
-    margin-left: 1em;
-    padding: 0.5em 1em;
+    margin-left: 3em;
+    padding: 0.5em 3em;
     line-height: 1.5; 
     font-size: 1.2rem;
   }
