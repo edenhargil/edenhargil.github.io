@@ -82,12 +82,6 @@ nav {
   }
 /***TRACKS***/
 	#tracks {
-		margin-left: 4em;
-	}
-	#tracks li {
-		padding: 1em 0;
-		font-family: 'Montserrat','Gill Sans','Calibri',sans-serif;
-  		color: hsla(231, 100%, 16%, 1);
-     		letter-spacing: 0.04rem;
+		margin-left: 6em;
 	}
 }
