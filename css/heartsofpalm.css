@@ -86,5 +86,8 @@ nav {
 	}
 	#tracks il {
 		padding: 1em 0;
+		font-family: 'Montserrat','Gill Sans','Calibri',sans-serif;
+  		color: hsla(231, 100%, 16%, 1);
+     		letter-spacing: 0.04rem;
 	}
 }
