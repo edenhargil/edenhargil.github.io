@@ -24,7 +24,7 @@ nav {
   background-color: none;
   /* border: #6B3863 1px solid; */
 }
-.about-artist img {
+.about-artist figure {
   display: none;
   }
 .about-album {
@@ -38,7 +38,7 @@ nav {
   background-color:none;
   /* border: #6B3863 1px solid; */
 }
-.about-album img {
+.about-album figure {
   display: none;
 }
 @media only screen and (min-width: 1081px){
@@ -54,12 +54,21 @@ nav {
     line-height: 1.5;
     font-size: 1.2rem;
   }
+  .about-album figure {
+	width: 40%;
+  }
   .about-album img {
     display: inline;
     align-self: start;
     width: 32%;
     /* border: #6B3863 1px solid; */
     line-height: 0;
+  }
+  .about-artist figcaption {
+    font-family: 'Montserrat','Gill Sans','Calibri',sans-serif;
+    color: hsla(231, 100%, 16%, 1);
+    margin: 0;
+    font-size: 0.8rem;
   }
   .about-artist {
     display: flex;
@@ -73,12 +82,21 @@ nav {
     line-height: 1.5; 
     font-size: 1.2rem;
   }
+  .about-artist figure {
+	width: 40%;
+  }
   .about-artist img {
     display: inline;
     align-self: start;
     width: 32%;
     /* border: #6B3863 1px solid; */
     line-height: 0;
+  }
+  .about-artist figcaption {
+   font-family: 'Montserrat','Gill Sans','Calibri',sans-serif;
+   color: hsla(231, 100%, 16%, 1);
+   margin: 0;
+   font-size: 0.8rem;
   }
 /***TRACKS***/
 	#tracks {
