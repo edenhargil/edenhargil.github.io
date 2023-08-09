@@ -116,7 +116,7 @@ nav {
   width:600px;
   max-width:100%;
   > a {
-    height:200px;
+    max-width:200px;
     margin:10px;
     overflow:hidden;
     box-shadow:0 0 0 2px black;
