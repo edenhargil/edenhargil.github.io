@@ -104,7 +104,7 @@ nav {
 		margin: 0 6rem;
 	}
 /***GALLERY***/
-#gallery {
+.gallery {
   display:flex;
   align-items:center;
   justify-content:center;
