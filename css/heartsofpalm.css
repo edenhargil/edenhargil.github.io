@@ -1,9 +1,9 @@
 header {
 	margin-top: 1em;
 }
-@media only screen and (min-width: 1081px)
+@media only screen and (min-width: 1081px){
 nav {
-    float: none;
+    float: none;}
 }
 
 /***LISTEN***/
@@ -98,8 +98,8 @@ nav {
    margin: 0;
    font-size: 0.8rem;
   }
+}
 /***TRACKS***/
 	#tracks {
 		margin: 0 6rem;
 	}
-}
