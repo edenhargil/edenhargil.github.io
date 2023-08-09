@@ -119,14 +119,13 @@ nav {
     max-width:20%;
     margin:10px;
     overflow:hidden;
-    box-shadow:0 0 0 2px black;
-}
+    }
 .thumbs img {
       transform:scale(0.4);
       transition:transform 0.2s ease-in-out;
       filter:grayscale(25%);
       min-width:100%;
-      min-height:100%;
+      /*min-height:100%;*/
       max-width:100%;
       max-height:100%;
  }
