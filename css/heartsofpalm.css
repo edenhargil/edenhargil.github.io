@@ -192,7 +192,8 @@ nav {
       overflow:hidden;
       box-shadow:0 0 0 3px white, 0 5px 8px 3px rgba(black, 0.6);
       transition:transform 0.25s ease-in-out,opacity 0.25s ease-in-out;
-      img {
+    }
+    .content img {
         min-width:50%;
         /*min-height:100%;*/
         max-width:50%;
@@ -200,7 +201,6 @@ nav {
         display:block;
         margin:0;
       }
-    }
     &:target {
       transform:scale(1);
       .content {
