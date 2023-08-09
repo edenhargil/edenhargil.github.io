@@ -114,12 +114,14 @@ nav {
   justify-content:center;
   flex-wrap:wrap;
   max-width:100%;
-  .thumbs a {
+}
+.thumbs a {
     max-width:20%;
     margin:10px;
     overflow:hidden;
     box-shadow:0 0 0 2px black;
-  .thumbs img {
+}
+.thumbs img {
       transform:scale(1);
       transition:transform 0.2s ease-in-out;
       filter:grayscale(50%);
@@ -127,15 +129,13 @@ nav {
       min-height:100%;
       max-width:100%;
       max-height:100%;
-    }
-    .thumbs a:hover {
+ }
+.thumbs a:hover {
       img {
         transform:scale(1.1);
         filter:grayscale(0%);
       }
     }
-  }
-}
 
 .lightbox {
   position:fixed;
@@ -180,7 +180,7 @@ nav {
       }
     }
     .content {
-      transform:scale(0.9);
+      transform:scale(0.8);
       opacity:0;
       flex:1 1 auto;
       align-self: center;
@@ -193,9 +193,9 @@ nav {
       box-shadow:0 0 0 3px white, 0 5px 8px 3px rgba(black, 0.6);
       transition:transform 0.25s ease-in-out,opacity 0.25s ease-in-out;
       img {
-        min-width:100%;
-        min-height:100%;
-        max-width:100%;
+        min-width:50%;
+        /*min-height:100%;*/
+        max-width:50%;
         max-height:calc(100vh - 40px);
         display:block;
         margin:0;
