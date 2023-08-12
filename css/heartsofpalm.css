@@ -18,13 +18,13 @@ nav {
   flex-direction: column-reverse;
   align-content: center;
 }
-.about-artist>p {
+.about-artist p {
   padding-left: 2em;
   text-align: justify;
   background-color: none;
   /* border: #6B3863 1px solid; */
 }
-.about-artist>figure {
+.about-artist figure {
   display: none;
   }
 .about-album {
@@ -32,13 +32,13 @@ nav {
   flex-direction: column-reverse;
   align-content: center;
 }
-.about-album>p {
+.about-album p {
   padding-left: 2em;
   text-align: justify;
   background-color:none;
   /* border: #6B3863 1px solid; */
 }
-.about-album>figure {
+.about-album figure {
   display: none;
 }
 @media only screen and (min-width: 1081px){
@@ -47,24 +47,24 @@ nav {
     align-content: flex-start;
     flex-direction: row;
   }
-  .about-album>p {
+  .about-album p {
     color: #00093dff;
     margin-left: 3em;
     padding: 0.5em 3em;
     line-height: 1.5;
     font-size: 1.2rem;
   }
-  .about-album>figure {
+  .about-album figure {
 	width: 40%;
   }
-  .about-album>img {
+  .about-album img {
     display: inline;
     align-self: start;
     width: 32%;
     /* border: #6B3863 1px solid; */
     line-height: 0;
   }
-  .about-artist>figcaption {
+  .about-artist figcaption {
     font-family: 'Montserrat','Gill Sans','Calibri',sans-serif;
     color: hsla(231, 100%, 16%, 1);
     margin: 0;
@@ -115,7 +115,7 @@ nav {
   flex-wrap:wrap;
   max-width:100%;
 }
-.thumbs>a {
+.thumbs a {
     max-width:20%;
     margin:10px;
     overflow:hidden;
