@@ -75,17 +75,17 @@ nav {
     align-content: flex-start;
     flex-direction: row;
   }
-  .about-artist>p {
+  .about-artist p {
     color: #00093dff;
     margin-left: 3em;
     padding: 0.5em 3em;
     line-height: 1.5; 
     font-size: 1.2rem;
   }
-  .about-artist>figure {
+  .about-artist> figure {
 	width: 40%;
   }
-  .about-artist>img {
+  .about-artist img {
     display: inline;
     align-self: start;
     width: 32%;
