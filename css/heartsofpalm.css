@@ -100,9 +100,11 @@ nav {
   }
 }
 /***TRACKS***/
-	#tracks {
+@media only screen and (min-width: 1081px){	
+  #tracks {
 		margin: 0 6rem;
 	}
+}
 /***GALLERY***/
 .gallery {
   display:flex;
