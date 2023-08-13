@@ -139,7 +139,6 @@ nav {
   transform:scale(1.2);
 }
 .lightbox {
-  width: 20%;
   background: rgba(0,0,0,0); 
   position: absolute;
   z-index: 2;
@@ -148,16 +147,12 @@ nav {
   justify-content: center;
   visibility: hidden; 
 }
+.lightbox img {
+  width: 60%;
+}
 .lightbox:target {
   visibility: visible;
   width: 20%;
 }
-lightbox:target a { 
-  box-shadow:2em #E7E4E7;
-  margin:auto;
-  padding: 1em;
-}
-lightbox:target img {
-  width:80%;
-}
+
 
