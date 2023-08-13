@@ -115,100 +115,48 @@ nav {
   flex-wrap:wrap;
   max-width:100%;
 }
-.thumbs a {
+.thumbnail {
     max-width:20%;
     margin:10px;
     overflow:hidden;
     }
-.thumbs img {
+.thumbnail img {
       transform:scale(1);
       transition:transform 0.2s ease-in-out;
-      filter:grayscale(25%);
       min-width:100%;
       /*min-height:100%;*/
       max-width:100%;
       max-height:100%;
+      filter:grayscale(80%);
  }
-.thumbs a:hover {
-        transform:scale(1.2);
+.thumbnail a:hover {
+        transform:scale(1.6);
         filter:grayscale(0%);
-      }
-
-.lightbox {
-  position:fixed;
-  background:rgba(black,0.5);
-  backdrop-filter:blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-  height:100%;
-  width:100%;
-  left:0;
-  top:0;
-  transform:translateY(-100%);
-  opacity:0;
-  transition:opacity 0.5s ease-in-out;
-  &:has(div:target) {
-    transform:translateY(0%);
-    opacity:1;
-  }
-  a.nav {
-    text-decoration:none;
-    color:white;
-    font-size:40px;
-    text-shadow:0 2px 2px rgba(black,0.8);
-    opacity:0.5;
-    font-weight:200;
-    &:hover {
-      opacity:1;
-    }
-  }
-  .target {
-    position:absolute;
-    height:100%;
-    width:100%;
-    display:flex;
-    transform:scale(0);
-    align-items:center;
-    justify-content:space-between;
-    *:first-child,*:last-child {
-      flex:0 0 100px;
-      text-align:center;
-      @media all and (max-width:600px){
-        flex:0 0 50px;
-      }
-    }
-    .content {
-      transform:scale(0.8);
-      opacity:0;
-      flex:1 1 auto;
-      align-self: center;
-      max-height:100%;
-      min-height:0;
-      // max-width:calc(100% - 200px);
-      min-width:0;
-      border-radius:5px;
-      overflow:hidden;
-      box-shadow:0 0 0 3px white, 0 5px 8px 3px rgba(black, 0.6);
-      transition:transform 0.25s ease-in-out,opacity 0.25s ease-in-out;
-    }
-    .content img {
-        min-width:50%;
-        /*min-height:100%;*/
-        max-width:50%;
-        max-height:calc(100vh - 40px);
-        display:block;
-        margin:0;
-      }
-    &:target {
-      transform:scale(1);
-      .content {
-        transform:scale(1);
-        opacity:1;
-      }
-    }
-  }
-  .close {
-    position:absolute;
-    right:10px;
-    top:10px;
-  }
+        z-index:1;
+        }
+.thumbnail img:hover{
+  filter:grayscale(0%);
+  transform:scale(1.2);
 }
+.lightbox {
+  background: rgba(0,0,0,0); 
+  position: absolute;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  visibility: hidden; 
+}
+.lightbox:target {
+  visibility: visible;
+  width: 20%;
+}
+lightbox:target a { 
+  box-shadow:2em #E7E4E7;
+  margin:auto;
+  padding: 1em;
+}
+lightbox:target img {
+  width:80%;
+}
+
