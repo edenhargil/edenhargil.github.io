@@ -41,7 +41,7 @@ nav {
 .about-album figure {
   display: none;
 }
-@media only screen and (min-width: 1081px){
+@media only screen and (min-width: 1080px){
   .about-album {
     display: flex;
     align-content: flex-start;
@@ -55,13 +55,13 @@ nav {
     font-size: 1.2rem;
   }
   .about-album figure {
-	width: 40%;
+    display: block;
+    width: 40%;
   }
   .about-album img {
     display: inline;
     align-self: start;
-    width: 32%;
-    /* border: #6B3863 1px solid; */
+    width: 100%;
     line-height: 0;
   }
   .about-artist figcaption {
@@ -83,12 +83,13 @@ nav {
     font-size: 1.2rem;
   }
   .about-artist> figure {
-	width: 40%;
+	  width: 40%;
+    display: block;
   }
   .about-artist img {
     display: inline;
     align-self: start;
-    width: 32%;
+    width: 100%;
     /* border: #6B3863 1px solid; */
     line-height: 0;
   }
