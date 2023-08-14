@@ -1,6 +1,9 @@
 header {
 	margin-top: 1em;
 }
+#albumtitle {
+  text-decoration: none;
+} 
 @media only screen and (min-width: 1081px){
 nav {
     float: none;}
