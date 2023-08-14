@@ -64,7 +64,7 @@ nav {
     width: 100%;
     line-height: 0;
   }
-  .about-artist figcaption {
+  .about-album figcaption {
     font-family: 'Montserrat','Gill Sans','Calibri',sans-serif;
     color: hsla(231, 100%, 16%, 1);
     margin: 0;
