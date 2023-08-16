@@ -59,7 +59,7 @@ nav {
   }
   .about-album figure {
     display: block;
-    width: 40%;
+    width: 100%;
   }
   .about-album img {
     display: inline;
@@ -86,7 +86,7 @@ nav {
     font-size: 1.2rem;
   }
   .about-artist figure {
-	  width: 40%;
+    width: 40%;
     display: block;
   }
   .about-artist img {
