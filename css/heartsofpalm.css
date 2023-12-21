@@ -15,7 +15,7 @@ nav {
 	text-align: left;
 }
 .musicplayer iframe {
-height: auto;
+height: 24rem;
 position: relative;
 }
 
@@ -27,7 +27,7 @@ position: relative;
   align-content: center;
 }
 .about-artist p {
-  padding-left: 2em;
+  padding-left: 1.2em;
   text-align: justify;
   background-color: none;
   /* border: #6B3863 1px solid; */
@@ -41,7 +41,7 @@ position: relative;
   align-content: center;
 }
 .about-album p {
-  padding-left: 2em;
+  padding-left: 1.2em;
   text-align: justify;
   background-color:none;
   /* border: #6B3863 1px solid; */
