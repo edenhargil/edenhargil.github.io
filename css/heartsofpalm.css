@@ -27,9 +27,11 @@ position: relative;
 
 /***ABOUT***/
 .about-artist {
-  display: flex;
-  flex-direction: column-reverse;
-  align-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    align-items: center;;
 }
 .about-artist p {
   padding-left: 1.2em;
@@ -38,12 +40,19 @@ position: relative;
   /* border: #6B3863 1px solid; */
 }
 .about-artist figure {
-  display: none;
+  display: flex;
+    width: 90%;
+    align-content: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
   }
 .about-album {
-	display: flex;
-  flex-direction: column-reverse;
-  align-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    align-items: center;;
 }
 .about-album p {
   padding-left: 1.2em;
@@ -52,7 +61,12 @@ position: relative;
   /* border: #6B3863 1px solid; */
 }
 .about-album figure {
-  display: none;
+  display: flex;
+    width: 90%;
+    align-content: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
 }
 @media only screen and (min-width: 1080px){
   .about-album {
