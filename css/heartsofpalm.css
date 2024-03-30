@@ -47,6 +47,9 @@ position: relative;
     flex-direction: column;
     align-items: center;
   }
+  .about-artist img{
+    width: 100%;
+  }
 .about-album {
     display: flex;
     flex-direction: column;
@@ -68,6 +71,9 @@ position: relative;
     flex-direction: column;
     align-items: center;
 }
+.about-album img {
+  width: 100%;
+}
 @media only screen and (min-width: 1080px){
   .about-album {
     display: flex;
@@ -88,7 +94,7 @@ position: relative;
   .about-album img {
     display: inline;
     align-self: start;
-    width: 100%;
+    width: 85%;
     line-height: 0;
   }
   .about-album figcaption {
