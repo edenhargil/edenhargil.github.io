@@ -48,3 +48,4 @@ window.onclick = function(event) {
 document.getElementById("myDropdown").addEventListener("click",function(event){
     event.stopPropagation();
 });
+// BandsInTown Widget
