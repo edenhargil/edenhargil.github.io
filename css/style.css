@@ -180,6 +180,8 @@ font-size: 1.2em;
 }
 .dropdown ul {
   padding: 0;
+  max-width: min-content;
+  margin: 20px auto;
 }
 .dropdown-content {
   z-index: 1;
