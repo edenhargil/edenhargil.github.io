@@ -7,9 +7,9 @@
 --deep-space-sparkle: #335c67ff;
 */
 /* --palatinate-purple: hsla(309, 31%, 32%, 1);
---midnight-blue: hsla(231, 100%, 16%, 1);
+--midnight-blue: hsla(231, 100%, 16%, 1); rgb(0, 12, 82);
 --black-shadows: hsla(8, 8%, 68%, 1);
---gainsboro: hsla(300, 3%, 85%, 1);
+--gainsboro: hsla(300, 3%, 85%, 1); rgb(219, 217, 219);
 --meep-space-sparkle: hsla(193, 34%, 30%, 1); */
 
 /* GLOBAL STYLES
@@ -287,39 +287,10 @@ font-size: 1.2em;
 }
 /* Live Shows
 -------------- */
-.bit-html-export {
-  width: 100%;
-  background: #fff;
-  font-family: Arial;
-  color: black;
-  font-size: 12px;
+.songkick-widget {
+display: block;
+position: relative;
 }
-.bit-table {
-  width: 100%;
-}
-.bit-table td {
-  padding: 7px 10px;
-  vertical-align: middle;
-}
-
-.bit-table a {
-  color: #00b4b3;
-  text-decoration: none;
-}
-
-/* alternate row background color */
-.bit-table tr:nth-of-type(2n) {
-  background: #eee;
-}
-
-/* separate line between rows */
-/* .bit-table tr td { border-bottom: 1px solid #ccc } */
-
-.bit-table .bit-cta {
-  text-align: center;
-  width: 25%;
-}
-
 .upcomming-table  {
   /* max-width: 60%; */
   border-collapse:collapse;
