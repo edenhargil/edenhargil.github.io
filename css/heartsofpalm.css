@@ -28,11 +28,12 @@ position: relative;
 .quote {
   align-items: center;
   border-style: ridge;
-
+  margin: 2em;
 }
 .quote p {
   padding-left: 1.2em;
-  text-align: justify;
+  text-align: inherit;
+  
 }
 /***ABOUT***/
 .about-artist {
