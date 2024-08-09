@@ -26,7 +26,13 @@ position: relative;
 
 /**PRESS**/
 .quote {
-  
+  align-items: center;
+  border-style: ridge;
+
+}
+.quote p {
+  padding-left: 1.2em;
+  text-align: justify;
 }
 /***ABOUT***/
 .about-artist {
