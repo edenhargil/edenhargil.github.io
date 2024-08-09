@@ -54,6 +54,12 @@ p {
   color: hsla(231, 100%, 16%, 1);
   margin: 0;
 }
+q {
+  font-family: 'Montserrat','Gill Sans','Calibri',sans-serif;
+  color: hsla(231, 100%, 16%, 1);
+  margin: 0;
+  font-style: italic
+}
 section {
   margin-top: -3rem;
   padding-top: 3rem;
