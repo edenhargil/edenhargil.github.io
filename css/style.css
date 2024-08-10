@@ -403,7 +403,7 @@ iframe {
 .mailinglist {
   max-width: 50%;
   margin: auto;
-  padding-bottom: : 4em;
+  padding-bottom: 4em;
   display: flex;
   flex-direction: column;
     justify-content: space-evenly;
