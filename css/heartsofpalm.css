@@ -33,7 +33,7 @@ position: relative;
   justify-content: center;
   align-items: baseline;
   align-content: space-around;
-
+}
   .streaming-links li {
     flex-basis: auto;
   }
