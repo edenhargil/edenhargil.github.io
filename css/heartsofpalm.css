@@ -37,6 +37,10 @@ position: relative;
   flex-grow: 1;
   flex-basis: auto;
 }
+.streaming-links img {
+  width: 10%;
+}
+
 
 /**PRESS**/
 .quote {
