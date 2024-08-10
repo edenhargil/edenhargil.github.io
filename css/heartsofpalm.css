@@ -36,10 +36,11 @@ position: relative;
 }
   .streaming-links li {
     flex-basis: auto;
+    margin: 0.2em;
+}
   }
 .streaming-links a {
   padding: 1em;
-  margin: 1em;
 }
 .streaming-links img {
   height: 4em;
